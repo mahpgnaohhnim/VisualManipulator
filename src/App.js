@@ -1,12 +1,14 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Navigation from "./components/Navigation";
 
 function App() {
-  return (
-    <div className="app">
-      <Navigation />
-    </div>
-  );
+    const [theme, setTheme] = useState('dark');
+
+    return (
+        <div className={`app ${theme}`}>
+            <Navigation changeTheme={setTheme}/>
+        </div>
+    );
 }
 
 export default App;

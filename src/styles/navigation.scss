@@ -1,16 +1,16 @@
-nav{
-  background-color: gray;
+nav {
+  background-color: var(--background-color);
   padding: 10px;
   display: grid;
   grid-template-columns: minmax(150px, 60%) 1fr;
 
-  .nav-left{
+  .nav-left {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
 
-  .nav-right{
+  .nav-right {
     display: flex;
     align-items: center;
     justify-content: flex-end;

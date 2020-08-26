@@ -9,7 +9,7 @@ const Navigation = props => {
                 <div className="navigation">nav</div>
             </div>
             <div className="nav-right">
-                <ThemeToggle />
+                <ThemeToggle changeTheme={props.changeTheme}/>
             </div>
         </nav>
     );

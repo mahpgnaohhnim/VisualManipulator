@@ -6,13 +6,13 @@ const ThemeToggle = props => {
 
     const setToggle = () => {
         const newActiveState = active !== 'active' ? 'active' : 'inactive';
-        console.log('newActiveState',newActiveState);
-        setActive(newActiveState)
-    }
+        props.changeTheme((active !== 'active') ? 'light' : 'dark');
+        setActive(newActiveState);
+    };
 
     return (
         <div className="theme-toggle" onClick={setToggle}>
-            <div className={`toggle-circle ${active}`} />
+            <div className={`toggle-circle ${active}`}/>
         </div>
     );
 };
