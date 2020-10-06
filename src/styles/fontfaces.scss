@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'InconsolataCondensedLight';
+  src: url("#{$fontfoler}InconsolataCondensed-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("#{$fontfoler}Roboto-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'SourceCodePro';
+  src: url("#{$fontfoler}SourceCodePro-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'SourceCodePro';
+  src: url("#{$fontfoler}SourceCodePro-MediumItalic.ttf") format("truetype");
+  font-style: Italic;
+  font-weight: normal;
+}
